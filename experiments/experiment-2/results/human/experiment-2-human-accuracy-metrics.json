@@ -1,0 +1,1338 @@
+{
+  "generatedAt": "2026-08-28T02:20:48.966Z",
+  "sources": {
+    "participantJson": "inputs/responses/experiment-2-participant-responses.json",
+    "standardJson": "inputs/scoring/experiment-2-standard-answers.json"
+  },
+  "participantCount": 6,
+  "component": {
+    "overall": {
+      "scope": "overall",
+      "correct": 149,
+      "total": 192,
+      "accuracy": 0.7760416666666666
+    },
+    "byParticipant": [
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "correct": 25,
+        "total": 32,
+        "accuracy": 0.78125
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "correct": 24,
+        "total": 32,
+        "accuracy": 0.75
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "correct": 27,
+        "total": 32,
+        "accuracy": 0.84375
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "correct": 21,
+        "total": 32,
+        "accuracy": 0.65625
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "correct": 26,
+        "total": 32,
+        "accuracy": 0.8125
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "correct": 26,
+        "total": 32,
+        "accuracy": 0.8125
+      }
+    ],
+    "byForm": [
+      {
+        "formId": "T1",
+        "correct": 46,
+        "total": 64,
+        "accuracy": 0.71875
+      },
+      {
+        "formId": "T2",
+        "correct": 50,
+        "total": 64,
+        "accuracy": 0.78125
+      },
+      {
+        "formId": "T3",
+        "correct": 53,
+        "total": 64,
+        "accuracy": 0.828125
+      }
+    ],
+    "byBlock": [
+      {
+        "block": "A",
+        "correct": 107,
+        "total": 144,
+        "accuracy": 0.7430555555555556
+      },
+      {
+        "block": "B",
+        "correct": 19,
+        "total": 24,
+        "accuracy": 0.7916666666666666
+      },
+      {
+        "block": "C",
+        "correct": 23,
+        "total": 24,
+        "accuracy": 0.9583333333333334
+      }
+    ],
+    "byFormBlock": [
+      {
+        "formId": "T1",
+        "block": "A",
+        "correct": 32,
+        "total": 48,
+        "accuracy": 0.6666666666666666
+      },
+      {
+        "formId": "T1",
+        "block": "B",
+        "correct": 7,
+        "total": 8,
+        "accuracy": 0.875
+      },
+      {
+        "formId": "T1",
+        "block": "C",
+        "correct": 7,
+        "total": 8,
+        "accuracy": 0.875
+      },
+      {
+        "formId": "T2",
+        "block": "A",
+        "correct": 38,
+        "total": 48,
+        "accuracy": 0.7916666666666666
+      },
+      {
+        "formId": "T2",
+        "block": "B",
+        "correct": 4,
+        "total": 8,
+        "accuracy": 0.5
+      },
+      {
+        "formId": "T2",
+        "block": "C",
+        "correct": 8,
+        "total": 8,
+        "accuracy": 1
+      },
+      {
+        "formId": "T3",
+        "block": "A",
+        "correct": 37,
+        "total": 48,
+        "accuracy": 0.7708333333333334
+      },
+      {
+        "formId": "T3",
+        "block": "B",
+        "correct": 8,
+        "total": 8,
+        "accuracy": 1
+      },
+      {
+        "formId": "T3",
+        "block": "C",
+        "correct": 8,
+        "total": 8,
+        "accuracy": 1
+      }
+    ],
+    "byField": [
+      {
+        "field": "time_span",
+        "correct": 40,
+        "total": 48,
+        "accuracy": 0.8333333333333334
+      },
+      {
+        "field": "sink",
+        "correct": 30,
+        "total": 48,
+        "accuracy": 0.625
+      },
+      {
+        "field": "interlude",
+        "correct": 37,
+        "total": 48,
+        "accuracy": 0.7708333333333334
+      },
+      {
+        "field": "choice",
+        "correct": 42,
+        "total": 48,
+        "accuracy": 0.875
+      }
+    ],
+    "byBlockField": [
+      {
+        "block": "A",
+        "field": "time_span",
+        "correct": 40,
+        "total": 48,
+        "accuracy": 0.8333333333333334
+      },
+      {
+        "block": "A",
+        "field": "sink",
+        "correct": 30,
+        "total": 48,
+        "accuracy": 0.625
+      },
+      {
+        "block": "A",
+        "field": "interlude",
+        "correct": 37,
+        "total": 48,
+        "accuracy": 0.7708333333333334
+      },
+      {
+        "block": "B",
+        "field": "choice",
+        "correct": 19,
+        "total": 24,
+        "accuracy": 0.7916666666666666
+      },
+      {
+        "block": "C",
+        "field": "choice",
+        "correct": 23,
+        "total": 24,
+        "accuracy": 0.9583333333333334
+      }
+    ]
+  },
+  "strict": {
+    "strictRows": [
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-02",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-03",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-04",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-05",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-06",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-07",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-08",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B5-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B5-02",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B6-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B6-02",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-02",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-03",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-04",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-02",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-03",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-04",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-05",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-06",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-07",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-08",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B5-03",
+        "fieldsCorrect": 0,
+        "fieldsTotal": 1,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B5-04",
+        "fieldsCorrect": 0,
+        "fieldsTotal": 1,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B6-03",
+        "fieldsCorrect": 0,
+        "fieldsTotal": 1,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B6-04",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-05",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-06",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-07",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-08",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-02",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-03",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-04",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-05",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-06",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-07",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-08",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B5-05",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B5-06",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B6-05",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B6-06",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-09",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-10",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-11",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-12",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-01",
+        "fieldsCorrect": 0,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-02",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-03",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-04",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-05",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-06",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-07",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "A",
+        "questionId": "A-1-08",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B5-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B5-02",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B6-01",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "B",
+        "questionId": "B6-02",
+        "fieldsCorrect": 0,
+        "fieldsTotal": 1,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-01",
+        "fieldsCorrect": 0,
+        "fieldsTotal": 1,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-02",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-03",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "block": "C",
+        "questionId": "C9-04",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-01",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-02",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-03",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-04",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-05",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-06",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-07",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "A",
+        "questionId": "A-2-08",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B5-03",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B5-04",
+        "fieldsCorrect": 0,
+        "fieldsTotal": 1,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B6-03",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "B",
+        "questionId": "B6-04",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-05",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-06",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-07",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "block": "C",
+        "questionId": "C9-08",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-01",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-02",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-03",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-04",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-05",
+        "fieldsCorrect": 3,
+        "fieldsTotal": 3,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-06",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-07",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "A",
+        "questionId": "A-3-08",
+        "fieldsCorrect": 2,
+        "fieldsTotal": 3,
+        "isCorrect": 0
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B5-05",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B5-06",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B6-05",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "B",
+        "questionId": "B6-06",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-09",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-10",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-11",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "block": "C",
+        "questionId": "C9-12",
+        "fieldsCorrect": 1,
+        "fieldsTotal": 1,
+        "isCorrect": 1
+      }
+    ],
+    "byParticipant": [
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "correct": 10,
+        "total": 16,
+        "accuracy": 0.625
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "correct": 10,
+        "total": 16,
+        "accuracy": 0.625
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "correct": 13,
+        "total": 16,
+        "accuracy": 0.8125
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "correct": 8,
+        "total": 16,
+        "accuracy": 0.5
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "correct": 10,
+        "total": 16,
+        "accuracy": 0.625
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "correct": 11,
+        "total": 16,
+        "accuracy": 0.6875
+      }
+    ],
+    "byForm": [
+      {
+        "formId": "T1",
+        "correct": 18,
+        "total": 32,
+        "accuracy": 0.5625
+      },
+      {
+        "formId": "T2",
+        "correct": 20,
+        "total": 32,
+        "accuracy": 0.625
+      },
+      {
+        "formId": "T3",
+        "correct": 24,
+        "total": 32,
+        "accuracy": 0.75
+      }
+    ],
+    "byBlock": [
+      {
+        "block": "A",
+        "correct": 20,
+        "total": 48,
+        "accuracy": 0.4166666666666667
+      },
+      {
+        "block": "B",
+        "correct": 19,
+        "total": 24,
+        "accuracy": 0.7916666666666666
+      },
+      {
+        "block": "C",
+        "correct": 23,
+        "total": 24,
+        "accuracy": 0.9583333333333334
+      }
+    ],
+    "overall": {
+      "scope": "overall",
+      "correct": 62,
+      "total": 96,
+      "accuracy": 0.6458333333333334
+    }
+  },
+  "timing": {
+    "totalSeconds": 8796,
+    "byParticipant": [
+      {
+        "participantId": "P1",
+        "formId": "T1",
+        "seconds": 1140,
+        "count": 3,
+        "averageSeconds": 380
+      },
+      {
+        "participantId": "P2",
+        "formId": "T2",
+        "seconds": 1140,
+        "count": 3,
+        "averageSeconds": 380
+      },
+      {
+        "participantId": "P3",
+        "formId": "T3",
+        "seconds": 1380,
+        "count": 3,
+        "averageSeconds": 460
+      },
+      {
+        "participantId": "P4",
+        "formId": "T1",
+        "seconds": 2100,
+        "count": 3,
+        "averageSeconds": 700
+      },
+      {
+        "participantId": "P5",
+        "formId": "T2",
+        "seconds": 960,
+        "count": 3,
+        "averageSeconds": 320
+      },
+      {
+        "participantId": "P6",
+        "formId": "T3",
+        "seconds": 2076,
+        "count": 3,
+        "averageSeconds": 692
+      }
+    ],
+    "byForm": [
+      {
+        "formId": "T1",
+        "seconds": 3240,
+        "count": 6,
+        "averageSeconds": 540
+      },
+      {
+        "formId": "T2",
+        "seconds": 2100,
+        "count": 6,
+        "averageSeconds": 350
+      },
+      {
+        "formId": "T3",
+        "seconds": 3456,
+        "count": 6,
+        "averageSeconds": 576
+      }
+    ],
+    "byBlock": [
+      {
+        "block": "A",
+        "seconds": 3120,
+        "count": 6,
+        "averageSeconds": 520
+      },
+      {
+        "block": "B",
+        "seconds": 1836,
+        "count": 6,
+        "averageSeconds": 306
+      },
+      {
+        "block": "C",
+        "seconds": 3840,
+        "count": 6,
+        "averageSeconds": 640
+      }
+    ],
+    "byFormBlock": [
+      {
+        "formId": "T1",
+        "block": "A",
+        "seconds": 1380,
+        "count": 2,
+        "averageSeconds": 690
+      },
+      {
+        "formId": "T1",
+        "block": "B",
+        "seconds": 960,
+        "count": 2,
+        "averageSeconds": 480
+      },
+      {
+        "formId": "T1",
+        "block": "C",
+        "seconds": 900,
+        "count": 2,
+        "averageSeconds": 450
+      },
+      {
+        "formId": "T2",
+        "block": "A",
+        "seconds": 780,
+        "count": 2,
+        "averageSeconds": 390
+      },
+      {
+        "formId": "T2",
+        "block": "B",
+        "seconds": 480,
+        "count": 2,
+        "averageSeconds": 240
+      },
+      {
+        "formId": "T2",
+        "block": "C",
+        "seconds": 840,
+        "count": 2,
+        "averageSeconds": 420
+      },
+      {
+        "formId": "T3",
+        "block": "A",
+        "seconds": 960,
+        "count": 2,
+        "averageSeconds": 480
+      },
+      {
+        "formId": "T3",
+        "block": "B",
+        "seconds": 396,
+        "count": 2,
+        "averageSeconds": 198
+      },
+      {
+        "formId": "T3",
+        "block": "C",
+        "seconds": 2100,
+        "count": 2,
+        "averageSeconds": 1050
+      }
+    ]
+  }
+}

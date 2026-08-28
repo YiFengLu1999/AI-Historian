@@ -1,0 +1,76 @@
+{
+  "label": "direct_llm_baseline",
+  "output_dir": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助_包含量化实验/DirectLLM_Experiment1_Baseline/outputs/current/generated_results_direct_llm_20260615_190423",
+  "runs": [
+    {
+      "run_dir": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助_包含量化实验/DirectLLM_Experiment1_Baseline/outputs/current/generated_results_direct_llm_20260615_190423",
+      "table_path": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助_包含量化实验/DirectLLM_Experiment1_Baseline/outputs/current/generated_results_direct_llm_20260615_190423/tables/all_cases_direct_llm_prefill.csv",
+      "rows": 249,
+      "timings": [
+        {
+          "case_id": "H-C1",
+          "part_id": "H-C1",
+          "rows": 15,
+          "llm_wall_seconds": 9.571,
+          "postprocess_wall_seconds": 2.207,
+          "total_wall_seconds": 11.778,
+          "unresolved_boundaries": 0,
+          "model": "deepseek-chat"
+        },
+        {
+          "case_id": "H-C2",
+          "part_id": "H-C2",
+          "rows": 35,
+          "llm_wall_seconds": 21.333,
+          "postprocess_wall_seconds": 1.292,
+          "total_wall_seconds": 22.625,
+          "unresolved_boundaries": 0,
+          "model": "deepseek-chat"
+        },
+        {
+          "case_id": "H-C3",
+          "part_id": "H-C3",
+          "rows": 49,
+          "llm_wall_seconds": 28.598,
+          "postprocess_wall_seconds": 1.24,
+          "total_wall_seconds": 29.838,
+          "unresolved_boundaries": 0,
+          "model": "deepseek-chat"
+        },
+        {
+          "case_id": "H-C4",
+          "part_id": "H-C4",
+          "rows": 32,
+          "llm_wall_seconds": 16.971,
+          "postprocess_wall_seconds": 0.82,
+          "total_wall_seconds": 17.791,
+          "unresolved_boundaries": 0,
+          "model": "deepseek-chat"
+        },
+        {
+          "case_id": "H-C5",
+          "part_id": "H-C5a+H-C5b",
+          "rows": 57,
+          "llm_wall_seconds": 30.11,
+          "postprocess_wall_seconds": 0.885,
+          "total_wall_seconds": 30.995,
+          "unresolved_boundaries": 0,
+          "model": "deepseek-chat"
+        },
+        {
+          "case_id": "H-C6",
+          "part_id": "H-C6a+H-C6b",
+          "rows": 61,
+          "llm_wall_seconds": 32.362,
+          "postprocess_wall_seconds": 2.328,
+          "total_wall_seconds": 34.69,
+          "unresolved_boundaries": 0,
+          "model": "deepseek-chat"
+        }
+      ],
+      "unresolved_csv": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助_包含量化实验/DirectLLM_Experiment1_Baseline/outputs/current/generated_results_direct_llm_20260615_190423/tables/direct_llm_unresolved_boundaries.csv"
+    }
+  ],
+  "generated_at": "2026-06-15T19:06:51",
+  "method": "Direct LLM baseline: participant rules + case text -> Chinese sentence-level ranges; boundary-to-ISO post-processing uses the same AIHAgent Step11 canonicalizer and normalization logic."
+}

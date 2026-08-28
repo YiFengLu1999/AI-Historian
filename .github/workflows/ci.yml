@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.13"]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          enable-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install locked environment
+        run: uv sync --locked
+      - name: Lint package boundaries
+        run: uv run ruff check src tests
+      - name: Lint repository and experiment entry points
+        run: |
+          uv run ruff check \
+            scripts/check_model_config.py \
+            scripts/reproduce_paper.py \
+            scripts/smoke_test_model.py \
+            experiments/experiment-1/code/generate_experiment1_ai_assisted.py \
+            experiments/experiment-1/code/run_experiment1_ai_only_consensus.py \
+            experiments/experiment-1/direct-llm/run_direct_llm_baseline.py \
+            experiments/experiment-2/code/run_direct_llm.py \
+            experiments/experiment-2/code/run_structured_llm.py
+      - name: Run deterministic tests
+        run: uv run python -m unittest discover -s tests -v
+      - name: Smoke-test both execution profiles
+        run: |
+          uv run aih examples/input --output /tmp/aih-evaluation --through-step 1
+          uv run aih-fulltext examples/input --output /tmp/aih-fulltext --through-step 01
+      - name: Verify frozen paper metrics
+        run: uv run python scripts/reproduce_paper.py frozen
+      - name: Build wheel and source distribution
+        run: uv build

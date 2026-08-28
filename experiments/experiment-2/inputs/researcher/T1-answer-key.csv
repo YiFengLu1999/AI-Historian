@@ -1,0 +1,17 @@
+﻿form_id,block,question_id,agent,source_id,doc,correct_time_span,correct_sink_yes_no,correct_interlude_yes_no,correct_choice,correct_text,key_basis
+T1,A,A-1-01,Agent 2/3/4,7.1.2,项羽本纪,开始起兵时,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,A,A-1-02,Agent 2/3/4,7.48.3,项羽本纪,无,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,A,A-1-03,Agent 2/3/4,8.5.11,高祖本纪,无,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,A,A-1-04,Agent 2/3/4,8.6.2,高祖本纪,无,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,A,A-1-05,Agent 2/3/4,8.9.1,高祖本纪,秦二世元年秋天,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,A,A-1-06,Agent 2/3/4,8.10.7,高祖本纪,无,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,A,A-1-07,Agent 2/3/4,7.17.7,项羽本纪,明天早晨,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,A,A-1-08,Agent 2/3/4,7.17.2,项羽本纪,无,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T1,B,B5-01,Agent 5,8.23.3,,,,,B,汉元年十一月,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T1,B,B5-02,Agent 5,8.30.1,,,,,B,汉二年,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T1,B,B6-01,Agent 6,8.16.1|8.9.1,,,,,B,B 早于 A,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T1,B,B6-02,Agent 6,8.22.1|8.23.3,,,,,A,A 早于 B,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T1,C,C9-01,Agent 9,7.3.15,项羽本纪,,,,B,【8.11.3】项梁、项羽起兵于吴。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T1,C,C9-02,Agent 9,7.10.1,项羽本纪,,,,C,【8.16.1】秦二世三年，楚怀王看到项梁的军队被打垮了，心里恐惧，迁离盱台，建都彭城，合并吕臣、项羽的军队，亲自统率。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T1,C,C9-03,Agent 9,7.17.2,项羽本纪,,,,A,【8.23.3】十一月间，项羽果然率领诸侯军西进，想要入关，而关门闭着。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T1,C,C9-04,Agent 9,7.27.1,项羽本纪,,,,D,【8.29.3】汉王随即平定了雍地。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.

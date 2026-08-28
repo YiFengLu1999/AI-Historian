@@ -1,0 +1,17 @@
+﻿form_id,block,question_id,agent,source_id,doc,correct_time_span,correct_sink_yes_no,correct_interlude_yes_no,correct_choice,correct_text,key_basis
+T2,A,A-2-01,Agent 2/3/4,8.21.1,高祖本纪,无,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,A,A-2-02,Agent 2/3/4,8.38.5,高祖本纪,第二年,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,A,A-2-03,Agent 2/3/4,8.60.3,高祖本纪,项氏失败时,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,A,A-2-04,Agent 2/3/4,8.84.1,高祖本纪,高祖攻打黥布时,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,A,A-2-05,Agent 2/3/4,8.11.1,高祖本纪,秦二世二年,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,A,A-2-06,Agent 2/3/4,8.22.1,高祖本纪,汉元年十月,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,A,A-2-07,Agent 2/3/4,7.18.1,项羽本纪,无,是,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,A,A-2-08,Agent 2/3/4,7.29.3,项羽本纪,"四月, 早晨, 中午",否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T2,B,B5-03,Agent 5,7.29.3,,,,,A,汉二年四月,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T2,B,B5-04,Agent 5,8.26.1,,,,,C,汉元年正月,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T2,B,B6-03,Agent 6,8.21.1|8.23.5,,,,,A,A 早于 B,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T2,B,B6-04,Agent 6,8.60.3|8.52.7,,,,,C,A 与 B 为同一事件或大致同时,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T2,C,C9-05,Agent 9,8.51.2,高祖本纪,,,,B,【7.44.1】汉五年，汉王追击项王到了阳夏南面，军队驻扎下来，与淮阴侯韩信、建成侯彭越约期会合进攻楚军。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T2,C,C9-06,Agent 9,8.42.5,高祖本纪,,,,D,【7.35.2】汉四年，项王围攻成皋。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T2,C,C9-07,Agent 9,53.4.3,萧相国世家,,,,A,【8.26.2】背弃原来的约定，改立沛公为汉王，在巴、蜀、汉中称玉，建都南郑。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T2,C,C9-08,Agent 9,53.4.2,萧相国世家,,,,C,【8.22.5】于是就把秦王交给了官吏，向西进入咸阳。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.

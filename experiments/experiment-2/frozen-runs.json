@@ -1,0 +1,20 @@
+{
+  "direct_llm": {
+    "source": "experiments/experiment-2/results/direct-llm/experiment-2-llm-subagents-score.json",
+    "row_strict_accuracy": 0.6875,
+    "row_strict_correct": 33,
+    "row_strict_total": 48
+  },
+  "structured_llm": {
+    "source": "experiments/experiment-2/results/structured-llm/experiment-2-aih-agent-api-score.json",
+    "row_strict_accuracy": 0.75,
+    "row_strict_correct": 36,
+    "row_strict_total": 48
+  },
+  "human": {
+    "source": "experiments/experiment-2/results/human/experiment-2-human-accuracy-metrics.json",
+    "row_strict_accuracy": 0.6458333333333334,
+    "row_strict_correct": 62,
+    "row_strict_total": 96
+  }
+}

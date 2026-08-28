@@ -1,0 +1,1598 @@
+[
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.16.1",
+    "sentence": "秦二世三年，楚怀王看到项梁的军队被打垮了，心里恐惧，迁离盱台，建都彭城，合并吕臣、项羽的军队，亲自统率。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.16.1",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.16.2",
+    "sentence": "以沛公任砀郡长，封为武安侯，统领砀郡的军队。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.16.2",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.16.3",
+    "sentence": "封项羽为长安侯，号为鲁公。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.16.3",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.16.4",
+    "sentence": "吕臣任司徒，他的父亲吕青作令尹。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.16.4",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.17.1",
+    "sentence": "赵多次请求救援，楚怀王就以宋义为上将军，项羽为次将，范增为未将，北上救赵。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.17.1",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.17.2",
+    "sentence": "命令沛公西出略地，打入关中。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.17.2",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.17.3",
+    "sentence": "同将领们约定：先攻入关中的，就封在关中做王。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.17.3",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.18.1",
+    "sentence": "这时候，秦军强盛，常常乘胜追击，众将领没有认为先入关的是有利的。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.18.1",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.18.2",
+    "sentence": "唯独项羽痛恨秦打垮了项梁的军队，心中愤激，愿和沛公西进入关。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.18.2",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.18.3",
+    "sentence": "怀王的老将都说：“项羽为人轻捷而凶猛，狡诈而残忍。项羽曾经攻打襄城，襄城没有留下一个活人，全都活埋了。所经过的地方，无不残杀毁灭。况且楚军多次进兵攻取，（没有获胜，）以前陈王、项梁都失败了。不如另派宽厚长者，以正义为号召，向西进发，把道理向秦父老兄弟讲清楚。秦父老兄弟苦于他们君主的统治很久了，现在如果真能得到宽厚长者去关中，不加欺凌暴虐，应该能够拿下关中。而今项羽剽悍，不可派遣。只有沛公向来是宽大长者，可以派遣。”",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.18.3",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.18.4",
+    "sentence": "终于没有答应项羽，而派遣沛公西进攻取秦地。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.18.4",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.18.5",
+    "sentence": "收集陈王、项梁的散兵，路经砀，到达成阳，与杠里的秦军对垒，打败了秦军的两支部队。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.18.5",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.22.8",
+    "sentence": "沛公派人与秦朝官吏巡行县城乡间，告谕百姓。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.22.8",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.22.9",
+    "sentence": "秦地的百姓大为高兴，争先恐后地拿出牛羊酒食款待士兵。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.22.9",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.22.10",
+    "sentence": "沛公又谦让不肯接受，说：“仓库的谷子很多，不缺乏，不愿破费百姓。”百姓更加高兴，唯恐沛公不做秦王。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.22.10",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.1",
+    "sentence": "有人劝沛公说：“秦地比天下富足十倍，地势好。如今听说章邯投降了项羽，项羽就给了雍王的封号，称王于关中。现在即将来到关中就国，你沛公恐怕不能占有这个地方了。应赶快派兵把守函谷关，不让诸侯军进来，逐渐征集关中兵，以加强实力，抵抗诸侯兵。”",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.1",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.2",
+    "sentence": "沛公赞成他的计策，照着做了。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.2",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.3",
+    "sentence": "汉元年十一月间，项羽果然率领诸侯军西进，想要入关，而关门闭着。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.3",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.4",
+    "sentence": "听说沛公已经平定关中，大怒，派黥布等攻破了函谷关。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.4",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.5",
+    "sentence": "十二月间，就到了戏水。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.5",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.6",
+    "sentence": "沛公左司马曹无伤听说项王发怒，",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.6",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.7",
+    "sentence": "要攻打沛公，派人告诉项羽说：“沛公想要称王关中，令子婴为相，珍宝被他全部占有了。”",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.7",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.8",
+    "sentence": "打算以此求得封赏。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.8",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.8.23.9",
+    "sentence": "亚父劝项羽进攻沛公。",
+    "characters": {
+      "项羽": false,
+      "刘邦": true
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5a",
+      "short_id": "8.23.9",
+      "source_text": "高祖本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.8.9",
+    "sentence": "沛公、项羽离开外黄攻打陈留，陈留坚兵固守，不能攻下。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.8.9",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.8.10",
+    "sentence": "沛公、项羽互相商量说：“如今项梁的军队垮了，士卒恐惧。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.8.10",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.8.11",
+    "sentence": "于是就领兵同吕臣的军队一起向东进发。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.8.11",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.8.12",
+    "sentence": "吕臣驻扎在彭城东面，项羽驻扎在彭城西面，沛公驻扎在砀。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.8.12",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.9.1",
+    "sentence": "章邯已经打垮了项梁的军队，以为楚地的敌人不用担心了，就渡过黄河攻打赵地，大破赵军。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.9.1",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.9.2",
+    "sentence": "这个时候，赵歇为赵王，陈余为将，张耳为相，都跑进了巨鹿城。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.9.2",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.9.3",
+    "sentence": "章邯命令王离、涉间围攻巨鹿，章邯驻扎在巨鹿南面，修筑甬道输送粮食。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.9.3",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.9.4",
+    "sentence": "陈余作为将领，统率士卒数万人驻扎在巨鹿的北面，这就是所说的河北之军。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.9.4",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.10.1",
+    "sentence": "楚军在定陶打了败仗，楚怀王很恐惧，从盱台前往彭城，合并了项羽、吕臣的军队亲自统率。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.10.1",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.10.2",
+    "sentence": "以吕臣为司徒，用他的父亲叶青为令尹。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.10.2",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.10.3",
+    "sentence": "以沛公为砀郡长，封为武安侯，统率砀郡的军队。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.10.3",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.11.1",
+    "sentence": "以前宋义所遇到的齐国使者高陵君显还在楚国的军队里，他见到楚怀王说：“宋义断定武信君的军队一定失败，过了几天，他的军队果然失败了。军队没有开战而先看到了失败的征兆，这可说是懂得军事了。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.11.1",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.11.2",
+    "sentence": "楚怀王召见宋义，和他商量事情，大为高兴，因此委任为上将军，项羽为鲁公，担任次将，范增为末将，去援救赵国。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.11.2",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.16.3",
+    "sentence": "等到秦军投降了诸侯军，诸侯军的官兵乘战争胜利的机会，像对待奴隶和俘虏一样地驱使他们，随便折磨侮辱秦军官兵。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.16.3",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.16.4",
+    "sentence": "秦军官兵多在私下议论说：“章将军等欺骗我们投降诸侯军。如今能够入关破秦，（当然）很好；如果不能，诸侯军俘虏我们东去；秦势必把我们的父母妻子全部处死。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.16.4",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.16.5",
+    "sentence": "诸侯军的将领们暗中听到了他们的打算，报告了项羽。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.16.5",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.16.6",
+    "sentence": "项羽就找来黥布、蒲将军商量说：“秦军官兵还很多，他们心里不服，到了关中不听从命令，事情必然岌岌可危，不如杀掉他们，而只与章邯、长史司马欣、都尉董翳一起入秦。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.16.6",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.16.7",
+    "sentence": "于是楚军夜间把秦军士卒二十多万人处死掩埋在新安城南。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.16.7",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.1",
+    "sentence": "项羽将要攻取秦关中地带。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.1",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.2",
+    "sentence": "函谷关有兵把守，不能进去。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.2",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.3",
+    "sentence": "又听说沛公已经攻破咸阳，项羽大怒，派当阳君等扣关。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.3",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.4",
+    "sentence": "项羽便进入了函谷关，到达戏水西岸。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.4",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.5",
+    "sentence": "沛公驻军霸上，没有能够和项羽相见。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.5",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.6",
+    "sentence": "沛公左司马曹无伤派人对项羽说：“沛公想称王关中，使子婴为相，占有了全部珍宝。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.6",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.7",
+    "sentence": "项羽怒气冲天他说：“明天早晨饱餐士卒，将击溃沛公的军队！”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.7",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.8",
+    "sentence": "这时，项羽有兵四十万，驻扎在新丰鸿门，沛公有兵十万，驻扎在霸上。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.8",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.17.9",
+    "sentence": "范增劝告项羽说：“沛公在山东时，贪财好货，喜爱美女。现在进了关，不收财物，不亲近妇女，由此看来，他的志向不小。我叫人观望他上空的云气，都呈龙虎形状，五颜六色，这是天子之气。赶快进击，不要失掉机会。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.17.9",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.18.1",
+    "sentence": "楚国左尹项伯这个人，是项羽的叔父，一向和留侯张良相友好。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.18.1",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.18.2",
+    "sentence": "张良这时跟随着沛公，项伯就夜间骑马跑到沛公军营，私下见到张良，讲述了事情的经过，打算叫张良和他一起离去。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.18.2",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.18.3",
+    "sentence": "他说：“不要跟他们一起死掉。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.18.3",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.18.4",
+    "sentence": "张良说：“我为韩王护送沛公，现在沛公的事情发生了危急，逃走是不道义的，不能不说一声。”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.18.4",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.18.5",
+    "sentence": "张良就走了进去，把情况全部告诉了沛公。",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.18.5",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  },
+  {
+    "number": "94d18bb5-29cc-51b5-b0c3-70afe2b6f85b.7.18.6",
+    "sentence": "沛公大吃一惊，说：“怎么办呢？”",
+    "characters": {
+      "项羽": true,
+      "刘邦": false
+    },
+    "Original_time_information": {
+      "exist": false,
+      "OTI": ""
+    },
+    "sink": {
+      "Is_it_sinking": false,
+      "reason": "..."
+    },
+    "Interlude": false,
+    "crossDocTransfer": {
+      "isSame": false,
+      "same_timeblock_id": []
+    },
+    "experiment_case": {
+      "case_id": "H-C5",
+      "part_id": "H-C5b",
+      "short_id": "7.18.6",
+      "source_text": "项羽本纪",
+      "crossdoc_enabled_by_design": true
+    }
+  }
+]

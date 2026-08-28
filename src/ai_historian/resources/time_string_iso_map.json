@@ -1,0 +1,42 @@
+{
+  "schema": "aih_time_string_iso_map_submission_v1",
+  "description": "Submission-safe month-level calendar normalization table. This file contains only time-string to ISO-month mappings and no participant, gold-answer, or per-sentence provenance.",
+  "calendar_rules": [
+    "ISO 8601 astronomical year numbering is used: 0000 = 1 BCE, -0001 = 2 BCE.",
+    "Month-level values are represented as YYYY-MM; Step11 expands them internally to YYYY-MM-01.",
+    "Year-only regnal expressions default to the regnal year start month according to the experiment calendar rules.",
+    "Season expressions map to representative months: spring=03, summer=06, autumn=09, winter=12."
+  ],
+  "map": {
+    "汉二年": "-0205-10",
+    "汉二年八月": "-0204-08",
+    "汉二年春": "-0204-03",
+    "汉二年春天": "-0204-03",
+    "汉二年冬": "-0205-12",
+    "汉二年四月": "-0204-04",
+    "汉高祖二年": "-0205-10",
+    "汉高祖三年": "-0204-10",
+    "汉高祖十二年秋": "-0194-09",
+    "汉高祖十一年": "-0196-10",
+    "汉高祖元年": "-0206-10",
+    "汉高祖元年八月": "-0205-08",
+    "汉高祖元年四月": "-0205-04",
+    "汉高祖元年正月": "-0205-01",
+    "汉三年": "-0204-10",
+    "汉十二年秋": "-0194-09",
+    "汉十一年": "-0196-10",
+    "汉四年": "-0203-10",
+    "汉王二年四月": "-0204-04",
+    "汉元年十二月": "-0206-12",
+    "汉元年十一月": "-0206-11",
+    "汉元年十月": "-0206-10",
+    "汉元年四月": "-0205-04",
+    "汉元年正月": "-0205-01",
+    "秦二世二年": "-0208-10",
+    "秦二世三年": "-0207-10",
+    "秦二世三年正月": "-0206-01",
+    "秦二世元年": "-0209-10",
+    "秦二世元年秋": "-0209-09",
+    "秦二世元年秋天": "-0209-09"
+  }
+}

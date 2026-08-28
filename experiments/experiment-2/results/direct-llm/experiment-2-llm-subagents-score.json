@@ -1,0 +1,961 @@
+{
+  "label": "experiment2_llm_subagents_consensus",
+  "generated_at": "2026-06-17T15:14:35",
+  "model": "deepseek-chat",
+  "runs": 3,
+  "questions": 48,
+  "timing": [
+    {
+      "run": 1,
+      "seconds": 76.04096627235413
+    },
+    {
+      "run": 2,
+      "seconds": 75.4430730342865
+    },
+    {
+      "run": 3,
+      "seconds": 71.1967420578003
+    }
+  ],
+  "total_seconds": 222.68078136444092,
+  "consensus_method": "per-field majority vote across runs; ties keep earliest run value; no gold labels used in voting",
+  "component_accuracy": 0.78125,
+  "component_correct": 75,
+  "component_total": 96,
+  "row_strict_accuracy": 0.6875,
+  "row_strict_correct": 33,
+  "row_strict_total": 48,
+  "detail": [
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-01",
+      "field": "time_span",
+      "answer": "开始起兵时",
+      "correct": "开始起兵时",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-01",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-01",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-02",
+      "field": "time_span",
+      "answer": "最初",
+      "correct": "最初等到项籍死了",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-02",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-02",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "是",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-03",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "等到高祖显贵",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-03",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-03",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "是",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-04",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "等到显贵时",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-04",
+      "field": "sink",
+      "answer": "是",
+      "correct": "否",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-04",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "是",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-05",
+      "field": "time_span",
+      "answer": "秦二世元年秋天",
+      "correct": "秦二世元年秋天",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-05",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-05",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-06",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "无",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-06",
+      "field": "sink",
+      "answer": "是",
+      "correct": "否",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-06",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-07",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "无",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-07",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-07",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-08",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "无",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-08",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "A",
+      "question_id": "A-1-08",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "B",
+      "question_id": "B5-01",
+      "field": "choice",
+      "answer": "B",
+      "correct": "B",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "B",
+      "question_id": "B5-02",
+      "field": "choice",
+      "answer": "B",
+      "correct": "B",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "B",
+      "question_id": "B6-01",
+      "field": "choice",
+      "answer": "B",
+      "correct": "B",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "B",
+      "question_id": "B6-02",
+      "field": "choice",
+      "answer": "A",
+      "correct": "D",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T1",
+      "block": "C",
+      "question_id": "C9-01",
+      "field": "choice",
+      "answer": "B",
+      "correct": "B",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "C",
+      "question_id": "C9-02",
+      "field": "choice",
+      "answer": "C",
+      "correct": "C",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "C",
+      "question_id": "C9-03",
+      "field": "choice",
+      "answer": "A",
+      "correct": "A",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T1",
+      "block": "C",
+      "question_id": "C9-04",
+      "field": "choice",
+      "answer": "D",
+      "correct": "D",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-01",
+      "field": "time_span",
+      "answer": "起初",
+      "correct": "起初",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-01",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-01",
+      "field": "interlude",
+      "answer": "是",
+      "correct": "是",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-02",
+      "field": "time_span",
+      "answer": "第二年",
+      "correct": "第二年",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-02",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-02",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-03",
+      "field": "time_span",
+      "answer": "项氏失败时",
+      "correct": "项氏失败时",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-03",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-03",
+      "field": "interlude",
+      "answer": "是",
+      "correct": "否",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-04",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "高祖攻打黥布时",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-04",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-04",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-05",
+      "field": "time_span",
+      "answer": "秦二世二年",
+      "correct": "秦二世二年",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-05",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-05",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-06",
+      "field": "time_span",
+      "answer": "汉元年十月",
+      "correct": "汉元年十月",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-06",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-06",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-07",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "无",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-07",
+      "field": "sink",
+      "answer": "是",
+      "correct": "是",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-07",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-08",
+      "field": "time_span",
+      "answer": "四月",
+      "correct": "四月",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-08",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "A",
+      "question_id": "A-2-08",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "B",
+      "question_id": "B5-03",
+      "field": "choice",
+      "answer": "A",
+      "correct": "A",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "B",
+      "question_id": "B5-04",
+      "field": "choice",
+      "answer": "C",
+      "correct": "B",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T2",
+      "block": "B",
+      "question_id": "B6-03",
+      "field": "choice",
+      "answer": "A",
+      "correct": "A",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "B",
+      "question_id": "B6-04",
+      "field": "choice",
+      "answer": "A",
+      "correct": "C",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T2",
+      "block": "C",
+      "question_id": "C9-05",
+      "field": "choice",
+      "answer": "B",
+      "correct": "B",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "C",
+      "question_id": "C9-06",
+      "field": "choice",
+      "answer": "D",
+      "correct": "D",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T2",
+      "block": "C",
+      "question_id": "C9-07",
+      "field": "choice",
+      "answer": "B",
+      "correct": "A",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T2",
+      "block": "C",
+      "question_id": "C9-08",
+      "field": "choice",
+      "answer": "C",
+      "correct": "C",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-01",
+      "field": "time_span",
+      "answer": "后又",
+      "correct": "高祖过去到咸阳服役时",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-01",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-01",
+      "field": "interlude",
+      "answer": "是",
+      "correct": "是",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-02",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "秦朝灭亡后",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-02",
+      "field": "sink",
+      "answer": "是",
+      "correct": "否",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-02",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "是",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-03",
+      "field": "time_span",
+      "answer": "正月",
+      "correct": "正月",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-03",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-03",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-04",
+      "field": "time_span",
+      "answer": "八月",
+      "correct": "八月",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-04",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-04",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-05",
+      "field": "time_span",
+      "answer": "汉三年",
+      "correct": "汉三年",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-05",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-05",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-06",
+      "field": "time_span",
+      "answer": "汉十二年的秋天",
+      "correct": "汉十二年的秋天",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-06",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-06",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-07",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "无",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-07",
+      "field": "sink",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-07",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-08",
+      "field": "time_span",
+      "answer": "无",
+      "correct": "无",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-08",
+      "field": "sink",
+      "answer": "是",
+      "correct": "否",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T3",
+      "block": "A",
+      "question_id": "A-3-08",
+      "field": "interlude",
+      "answer": "否",
+      "correct": "否",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "B",
+      "question_id": "B5-05",
+      "field": "choice",
+      "answer": "D",
+      "correct": "D",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "B",
+      "question_id": "B5-06",
+      "field": "choice",
+      "answer": "A",
+      "correct": "A",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "B",
+      "question_id": "B6-05",
+      "field": "choice",
+      "answer": "B",
+      "correct": "B",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "B",
+      "question_id": "B6-06",
+      "field": "choice",
+      "answer": "C",
+      "correct": "C",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "C",
+      "question_id": "C9-09",
+      "field": "choice",
+      "answer": "D",
+      "correct": "D",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "C",
+      "question_id": "C9-10",
+      "field": "choice",
+      "answer": "C",
+      "correct": "C",
+      "is_correct": 1
+    },
+    {
+      "form_id": "T3",
+      "block": "C",
+      "question_id": "C9-11",
+      "field": "choice",
+      "answer": "D",
+      "correct": "C",
+      "is_correct": 0
+    },
+    {
+      "form_id": "T3",
+      "block": "C",
+      "question_id": "C9-12",
+      "field": "choice",
+      "answer": "C",
+      "correct": "D",
+      "is_correct": 0
+    }
+  ],
+  "by_block": [
+    {
+      "group": "A",
+      "correct": 57,
+      "total": 72,
+      "accuracy": 0.7916666666666666
+    },
+    {
+      "group": "B",
+      "correct": 9,
+      "total": 12,
+      "accuracy": 0.75
+    },
+    {
+      "group": "C",
+      "correct": 9,
+      "total": 12,
+      "accuracy": 0.75
+    }
+  ],
+  "by_form": [
+    {
+      "group": "T1",
+      "correct": 23,
+      "total": 32,
+      "accuracy": 0.71875
+    },
+    {
+      "group": "T2",
+      "correct": 27,
+      "total": 32,
+      "accuracy": 0.84375
+    },
+    {
+      "group": "T3",
+      "correct": 25,
+      "total": 32,
+      "accuracy": 0.78125
+    }
+  ],
+  "by_field": [
+    {
+      "group": "choice",
+      "correct": 18,
+      "total": 24,
+      "accuracy": 0.75
+    },
+    {
+      "group": "interlude",
+      "correct": 19,
+      "total": 24,
+      "accuracy": 0.7916666666666666
+    },
+    {
+      "group": "sink",
+      "correct": 20,
+      "total": 24,
+      "accuracy": 0.8333333333333334
+    },
+    {
+      "group": "time_span",
+      "correct": 18,
+      "total": 24,
+      "accuracy": 0.75
+    }
+  ]
+}

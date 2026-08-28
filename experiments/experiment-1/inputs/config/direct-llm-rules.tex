@@ -1,0 +1,111 @@
+\documentclass[fontset=none,12pt,a4paper]{ctexart}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\IfFontExistsTF{Songti SC}
+  {\setCJKmainfont{Songti SC}\setCJKsansfont{Songti SC}\setCJKmonofont{Songti SC}}
+  {\setCJKmainfont[BoldFont=FandolSong-Bold.otf]{FandolSong-Regular.otf}\setCJKsansfont[BoldFont=FandolSong-Bold.otf]{FandolSong-Regular.otf}\setCJKmonofont[BoldFont=FandolSong-Bold.otf]{FandolSong-Regular.otf}}
+\IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{\setmainfont{Times New Roman}}
+
+\definecolor{RuleBlue}{HTML}{EAF3FF}
+\definecolor{RuleLine}{HTML}{5C88C5}
+\definecolor{RuleGreen}{HTML}{EEF8EF}
+\definecolor{RuleGreenLine}{HTML}{5B9B6A}
+
+\titleformat{\section}{\Large\bfseries}{\thesection.}{0.6em}{}
+\setlength{\parindent}{0pt}
+\setlist[enumerate]{leftmargin=2.2em,itemsep=0.7em}
+\setlist[itemize]{leftmargin=2.0em,itemsep=0.35em}
+
+\newcommand{\markexample}[1]{\texttt{#1}}
+
+\title{\textbf{参与者作答规则}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-2em}
+
+\begin{tcolorbox}[colback=RuleBlue,colframe=RuleLine,title=实验安排]
+请按照任务清单依次完成材料。根据实验计划，每位参与者会完成：
+\begin{itemize}
+  \item 1 个 \textbf{Human-only} packet：只依据题面材料自行判断。
+  \item 1 个 \textbf{AI辅助} packet：题面中已经给出 AI 初稿，可接受或修改。
+\end{itemize}
+两种条件使用同样的 case packet 类型和同样的最终评分目标：给每一句话标出句子级月份范围。
+\end{tcolorbox}
+
+\section*{Human-only 作答规则}
+\begin{tcolorbox}[colback=white,colframe=black!25,title=Human-only]
+Human-only 条件下，PDF 只提供目标文本和答题表，不提供 AI 初稿。你的任务是：
+\begin{enumerate}
+  \item 给目标段中的每一句标出起始时间和结束时间。
+  \item 如果一句话只对应一个时间点或一个月份，起始时间和结束时间可以写成同一个时间。
+  \item 如果无法确定时间范围，请标为“未知”，并可在备注处简单说明原因。
+\end{enumerate}
+不要填写 TimeBlock 顺序、时间标志物补全、ISO 日期等中间变量；这里只看最终句子级时间范围。
+\end{tcolorbox}
+
+\section*{AI辅助作答规则}
+\begin{tcolorbox}[colback=gray!6,colframe=black!20,title=AI辅助]
+AI辅助条件下，PDF 中已经预先给出 AI 草稿。你可以：
+\begin{enumerate}
+  \item 直接接受 AI 的时间范围。
+  \item 修改开始年月或结束年月。
+  \item 把该句改成“未知”。
+  \item 按你的判断修正 AI 给出的下沉、插叙或备注信息。
+\end{enumerate}
+
+AI 预标的下沉句和插叙句会在句子正文前显示
+\markexample{【下沉】} 或 \markexample{【插叙】}。AI 给出的跨文本 TimeBlock 来源、下沉原因等备注，会在对应句子下方以单独的“备注”行显示。
+
+其中“跨文本 TimeBlock”来自 AI 对另一篇纪传中相近时间块的自动对齐，例如
+\markexample{跨文本TimeBlock：8.23.5} 表示当前句子所在时间块参考了以 8.23.5 开头的另一文本时间块；它不是句子一一对应标记，只作为时间判断参考。
+\end{tcolorbox}
+
+\section*{共同时间标注规则}
+\begin{tcolorbox}[colback=white,colframe=black!25,title=时间范围]
+两种条件都请给每一句话划分时间范围，并在句子序号前标记：
+
+\vspace{0.4em}
+\centerline{\Large\markexample{（起始时间，结束时间）}}
+\vspace{0.4em}
+
+如果一句话只对应一个时间点或一个月份，起始时间和结束时间可以写成同一个时间。
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=RuleGreen,colframe=RuleGreenLine,title=纪年规则]
+\textbf{注意：十月为一年的开始。}
+
+遇到汉初相关纪年时，请按题面材料和上下文判断年份；不要默认正月是一年的开始。
+\end{tcolorbox}
+
+\section*{特殊情况}
+\begin{enumerate}
+  \item \textbf{插叙}
+
+  如果句子是插叙、追述或倒叙，请在句子序号前标记“插叙”，并继续填写时间范围：
+
+  \vspace{0.2em}
+  \centerline{\Large\markexample{插叙（起始时间，结束时间）}}
+
+  \item \textbf{下沉}
+
+  如果句子没有具体事件发生，只是人物身份、背景、评价、说明来源等描述性语句，请标记为：
+
+  \vspace{0.2em}
+  \centerline{\Large\markexample{下沉}}
+\end{enumerate}
+
+\vfill
+\begin{tcolorbox}[colback=gray!6,colframe=black!20]
+作答时请优先依据当前 PDF 中给出的材料与上下文判断；无法确定时，可在备注处说明不确定原因。
+\end{tcolorbox}
+
+\end{document}

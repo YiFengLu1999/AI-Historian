@@ -1,0 +1,7 @@
+case_id,part_id,rows,llm_wall_seconds,postprocess_wall_seconds,total_wall_seconds,unresolved_boundaries,model
+H-C1,H-C1,15,9.571,2.207,11.778,0,deepseek-chat
+H-C2,H-C2,35,21.333,1.292,22.625,0,deepseek-chat
+H-C3,H-C3,49,28.598,1.24,29.838,0,deepseek-chat
+H-C4,H-C4,32,16.971,0.82,17.791,0,deepseek-chat
+H-C5,H-C5a+H-C5b,57,30.11,0.885,30.995,0,deepseek-chat
+H-C6,H-C6a+H-C6b,61,32.362,2.328,34.69,0,deepseek-chat

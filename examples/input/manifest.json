@@ -1,0 +1,10 @@
+{
+  "schema": "ai_historian_input_v1",
+  "documents": [
+    {
+      "file": "liu-bang-synthetic-biography.txt",
+      "person": "刘邦",
+      "title": "Synthetic Biography"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Experiment 2: Strict Accuracy + Time</title>
+  <style>
+    :root {
+      --bg: #f7f5f0;
+      --ink: #20231f;
+      --muted: #626a62;
+      --line: #d9ddd6;
+      --panel: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+    }
+    header {
+      padding: 34px 42px 26px;
+      border-bottom: 1px solid var(--line);
+      background: #efeee8;
+    }
+    h1 { margin: 0 0 8px; font-size: 34px; letter-spacing: 0; }
+    .sub { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.5; max-width: 1100px; }
+    main { max-width: 1120px; margin: 0 auto; padding: 28px 24px 54px; }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px 24px 18px;
+      margin-bottom: 22px;
+    }
+    h2 { margin: 0 0 4px; font-size: 22px; }
+    .note { margin: 0 0 16px; color: var(--muted); line-height: 1.45; }
+    .legend { display: flex; gap: 18px; flex-wrap: wrap; margin: 14px 0 4px; color: var(--muted); }
+    .legend-item { display: inline-flex; align-items: center; gap: 8px; }
+    .swatch { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+    svg { width: 100%; height: auto; display: block; }
+    .grid { stroke: #e4e7e1; stroke-width: 1; }
+    .axis, .time-label { fill: #6d746c; font-size: 12px; }
+    .axis-title { fill: #5f675f; font-size: 13px; font-weight: 650; }
+    .bar-label { fill: #20231f; font-size: 15px; font-weight: 700; }
+    .category { fill: #20231f; font-size: 14px; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); background: #f8faf8; }
+    .takeaway {
+      padding: 14px 16px;
+      border: 1px solid #cfd9d1;
+      border-radius: 8px;
+      background: #f4faf5;
+      color: #245b43;
+      font-weight: 650;
+      line-height: 1.45;
+    }
+    .foot {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+      margin-top: 12px;
+    }
+    code { background: #f0f1ed; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Experiment 2 Strict Accuracy + Time</h1>
+    <p class="sub">Comparison of human performance, direct LLM prompting, and structured LLM prompting on Experiment 2. Bar height is strict row accuracy; labels under each bar show correct rows and elapsed time.</p>
+    <div class="legend">
+      <span class="legend-item"><span class="swatch" style="background:#b7791f"></span>Human</span><span class="legend-item"><span class="swatch" style="background:#2f7d62"></span>Direct LLM</span><span class="legend-item"><span class="swatch" style="background:#3b6fb6"></span>Structured LLM</span>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>Overall</h2>
+      <p class="note">Strict accuracy counts a row as correct only when every required field in that question is correct.</p>
+      <svg id="overallChart" role="img" aria-label="Experiment 2 overall strict accuracy and time chart"></svg>
+    </section>
+    <section>
+      <h2>By Block</h2>
+      <p class="note">Block A requires time information, sink, and interlude to all match. Blocks B and C require the selected choice to match.</p>
+      <svg id="blockChart" role="img" aria-label="Experiment 2 strict accuracy and time by block chart"></svg>
+    </section>
+    <section>
+      <h2>Summary</h2>
+      <p id="takeaway" class="takeaway"></p>
+      <table>
+        <thead><tr><th>Scope</th><th>Condition</th><th>Strict accuracy</th><th>Correct / total</th><th>Time</th></tr></thead>
+        <tbody id="metricsBody"></tbody>
+      </table>
+    </section>
+    <p class="foot">
+      Generated at <span id="generatedAt"></span>. Human rows aggregate the six participant Experiment 2 sheets. Direct LLM rows aggregate the T1, T2, and T3 consensus output from three model runs. Structured LLM rows use human-visible question text only for all three blocks, with block-specific structured prompts and three-run majority vote. Metric source: <code>row_strict_accuracy</code>. Direct LLM block times allocate total wall-clock runtime by each block's share of per-question API elapsed seconds across the three runs. Structured LLM block times allocate total wall-clock runtime by each block's share of per-question API elapsed seconds across the three runs.
+    </p>
+  </main>
+  <script>
+const DATA = {
+  "generatedAt": "2026-08-28T02:20:49.007Z",
+  "metric": "row_strict_accuracy",
+  "overall": [
+    {
+      "method": "human",
+      "label": "Human",
+      "color": "#b7791f",
+      "strictAccuracy": 0.6458333333333334,
+      "correct": 62,
+      "total": 96,
+      "seconds": 8796
+    },
+    {
+      "method": "llm_subagent",
+      "label": "Direct LLM",
+      "color": "#2f7d62",
+      "strictAccuracy": 0.6875,
+      "correct": 33,
+      "total": 48,
+      "seconds": 222.68078136444092
+    },
+    {
+      "method": "aih_agent_api",
+      "label": "Structured LLM",
+      "color": "#3b6fb6",
+      "strictAccuracy": 0.75,
+      "correct": 36,
+      "total": 48,
+      "seconds": 841.7713282108307
+    }
+  ],
+  "blocks": [
+    {
+      "id": "A",
+      "label": "Block A",
+      "values": [
+        {
+          "method": "human",
+          "label": "Human",
+          "color": "#b7791f",
+          "strictAccuracy": 0.4166666666666667,
+          "correct": 20,
+          "total": 48,
+          "seconds": 3120
+        },
+        {
+          "method": "llm_subagent",
+          "label": "Direct LLM",
+          "color": "#2f7d62",
+          "strictAccuracy": 0.625,
+          "correct": 15,
+          "total": 24,
+          "seconds": 108.0497100646109
+        },
+        {
+          "method": "aih_agent_api",
+          "label": "Structured LLM",
+          "color": "#3b6fb6",
+          "strictAccuracy": 0.6666666666666666,
+          "correct": 16,
+          "total": 24,
+          "seconds": 734.166257244887
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Block B",
+      "values": [
+        {
+          "method": "human",
+          "label": "Human",
+          "color": "#b7791f",
+          "strictAccuracy": 0.7916666666666666,
+          "correct": 19,
+          "total": 24,
+          "seconds": 1836
+        },
+        {
+          "method": "llm_subagent",
+          "label": "Direct LLM",
+          "color": "#2f7d62",
+          "strictAccuracy": 0.75,
+          "correct": 9,
+          "total": 12,
+          "seconds": 53.75654384779472
+        },
+        {
+          "method": "aih_agent_api",
+          "label": "Structured LLM",
+          "color": "#3b6fb6",
+          "strictAccuracy": 0.75,
+          "correct": 9,
+          "total": 12,
+          "seconds": 49.69176761780626
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Block C",
+      "values": [
+        {
+          "method": "human",
+          "label": "Human",
+          "color": "#b7791f",
+          "strictAccuracy": 0.9583333333333334,
+          "correct": 23,
+          "total": 24,
+          "seconds": 3840
+        },
+        {
+          "method": "llm_subagent",
+          "label": "Direct LLM",
+          "color": "#2f7d62",
+          "strictAccuracy": 0.75,
+          "correct": 9,
+          "total": 12,
+          "seconds": 60.87452745203529
+        },
+        {
+          "method": "aih_agent_api",
+          "label": "Structured LLM",
+          "color": "#3b6fb6",
+          "strictAccuracy": 0.9166666666666666,
+          "correct": 11,
+          "total": 12,
+          "seconds": 57.913303348137426
+        }
+      ]
+    }
+  ],
+  "timeNotes": {
+    "human": "Human block times are read from participant timing records.",
+    "llm": "Direct LLM block times allocate total wall-clock runtime by each block's share of per-question API elapsed seconds across the three runs.",
+    "aihAgent": "Structured LLM block times allocate total wall-clock runtime by each block's share of per-question API elapsed seconds across the three runs."
+  },
+  "methodNotes": {
+    "aihAgent": "Structured LLM rows use human-visible question text only for all three blocks, with block-specific structured prompts and three-run majority vote."
+  },
+  "sources": {
+    "humanMetrics": "experiment-2-human-accuracy-metrics.json",
+    "llmSource": "latest direct-LLM consensus output",
+    "structuredLlmSource": "latest structured-LLM consensus output"
+  }
+};
+
+function fmtPct(value) { return (value * 100).toFixed(1) + '%'; }
+function fmtTime(seconds) {
+  if (!Number.isFinite(seconds)) return 'n/a';
+  if (seconds < 60) return seconds.toFixed(0) + 's';
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.round(seconds % 60);
+  if (h) return h + 'h ' + m + 'm';
+  return s ? m + 'm ' + s + 's' : m + 'm';
+}
+
+function svgEl(tag, attrs = {}, text = '') {
+  const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+  Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, value));
+  if (text) el.textContent = text;
+  return el;
+}
+
+function drawGroupedChart(svgId, groups) {
+  const svg = document.getElementById(svgId);
+  const width = 1040, height = 430;
+  const margin = { top: 30, right: 24, bottom: 112, left: 72 };
+  const plotW = width - margin.left - margin.right;
+  const plotH = height - margin.top - margin.bottom;
+  svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
+  svg.innerHTML = '';
+
+  const y = (v) => margin.top + plotH - Math.max(0, Math.min(1, v)) * plotH;
+  [0, .25, .5, .75, 1].forEach((tick) => {
+    const yy = y(tick);
+    svg.appendChild(svgEl('line', { x1: margin.left, x2: width - margin.right, y1: yy, y2: yy, class: 'grid' }));
+    svg.appendChild(svgEl('text', { x: margin.left - 12, y: yy + 4, 'text-anchor': 'end', class: 'axis' }, Math.round(tick * 100) + '%'));
+  });
+
+  const groupW = plotW / groups.length;
+  const maxBars = Math.max(...groups.map((group) => group.values.length));
+  const barW = Math.min(72, groupW * 0.2);
+  const innerGap = 18;
+
+  groups.forEach((group, groupIndex) => {
+    const center = margin.left + groupW * groupIndex + groupW / 2;
+    const totalBarsW = group.values.length * barW + (group.values.length - 1) * innerGap;
+    const startX = center - totalBarsW / 2;
+    group.values.forEach((item, itemIndex) => {
+      const x = startX + itemIndex * (barW + innerGap);
+      const yy = y(item.strictAccuracy);
+      const h = margin.top + plotH - yy;
+      svg.appendChild(svgEl('rect', { x, y: yy, width: barW, height: h, rx: 6, fill: item.color }));
+      svg.appendChild(svgEl('text', { x: x + barW / 2, y: yy - 10, 'text-anchor': 'middle', class: 'bar-label' }, fmtPct(item.strictAccuracy)));
+      svg.appendChild(svgEl('text', { x: x + barW / 2, y: margin.top + plotH + 42 + itemIndex * 20, 'text-anchor': 'middle', class: 'time-label' }, item.label + ': ' + item.correct + '/' + item.total + ', ' + fmtTime(item.seconds)));
+    });
+    svg.appendChild(svgEl('text', { x: center, y: margin.top + plotH + 24, 'text-anchor': 'middle', class: 'category' }, group.label));
+  });
+
+  svg.appendChild(svgEl('text', {
+    x: 18,
+    y: margin.top + plotH / 2,
+    'text-anchor': 'middle',
+    transform: 'rotate(-90 18 ' + (margin.top + plotH / 2) + ')',
+    class: 'axis-title',
+  }, 'Strict accuracy'));
+}
+
+function fillTables() {
+  document.getElementById('generatedAt').textContent = new Date(DATA.generatedAt).toLocaleString();
+  const rows = [];
+  rows.push(...DATA.overall.map((item) => ({ group: 'Overall', ...item })));
+  DATA.blocks.forEach((block) => block.values.forEach((item) => rows.push({ group: block.label, ...item })));
+  document.getElementById('metricsBody').innerHTML = rows.map((item) => '<tr>' +
+    '<td>' + item.group + '</td>' +
+    '<td>' + item.label + '</td>' +
+    '<td>' + fmtPct(item.strictAccuracy) + '</td>' +
+    '<td>' + item.correct + ' / ' + item.total + '</td>' +
+    '<td>' + fmtTime(item.seconds) + '</td>' +
+  '</tr>').join('');
+
+  const best = DATA.overall.reduce((a, b) => a.strictAccuracy >= b.strictAccuracy ? a : b);
+  const human = DATA.overall.find((item) => item.method === 'human');
+  const diff = best.strictAccuracy - human.strictAccuracy;
+  const timeRatio = best.seconds > 0 ? human.seconds / best.seconds : Infinity;
+  document.getElementById('takeaway').textContent =
+    'Best overall strict accuracy: ' + best.label + ' is ' + (diff * 100).toFixed(1) +
+    ' percentage points above Human; displayed runtime ratio vs Human is ' + (Number.isFinite(timeRatio) ? timeRatio.toFixed(1) + 'x' : 'n/a') + '.';
+}
+
+drawGroupedChart('overallChart', [{ label: 'Overall', values: DATA.overall }]);
+drawGroupedChart('blockChart', DATA.blocks);
+fillTables();
+</script>
+</body>
+</html>

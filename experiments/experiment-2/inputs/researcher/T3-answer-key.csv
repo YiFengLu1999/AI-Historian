@@ -1,0 +1,17 @@
+﻿form_id,block,question_id,agent,source_id,doc,correct_time_span,correct_sink_yes_no,correct_interlude_yes_no,correct_choice,correct_text,key_basis
+T3,A,A-3-01,Agent 2/3/4,53.9.4,萧相国世家,过去,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,A,A-3-02,Agent 2/3/4,53.10.6,萧相国世家,无,否,是,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,A,A-3-03,Agent 2/3/4,8.26.1,高祖本纪,正月,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,A,A-3-04,Agent 2/3/4,8.29.1,高祖本纪,八月,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,A,A-3-05,Agent 2/3/4,7.32.1,项羽本纪,汉三年,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,A,A-3-06,Agent 2/3/4,53.11.1,萧相国世家,汉十二年的秋天,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,A,A-3-07,Agent 2/3/4,7.22.5,项羽本纪,无,否,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,A,A-3-08,Agent 2/3/4,8.23.11,高祖本纪,无,是,否,,,"AIH step12 sentence fields, with user-provided gold override for Block A interlude IDs."
+T3,B,B5-05,Agent 5,8.29.1,,,,,D,汉元年八月,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T3,B,B5-06,Agent 5,53.11.1,,,,,A,汉十二年秋,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T3,B,B6-05,Agent 6,53.7.1|53.5.2,,,,,B,B 早于 A,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T3,B,B6-06,Agent 6,8.23.6|7.17.6,,,,,C,A 与 B 为同一事件或大致同时,Curated from the local case packet chronology and main Agent 5/6 definitions.
+T3,C,C9-09,Agent 9,53.4.1,萧相国世家,,,,D,【8.10.9】父老们都说：“我们平时听到刘季许多奇异的事情，看来刘季是该显贵的。而且又经过占卜，没有比刘季更吉利的。”,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T3,C,C9-10,Agent 9,53.5.1,萧相国世家,,,,C,【8.29.3】汉王随即平定了雍地。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T3,C,C9-11,Agent 9,53.10.2,萧相国世家,,,,A,【8.26.1】正月，项羽自立为西楚霸王，在梁、楚地区的九个郡称王，建都彭城。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.
+T3,C,C9-12,Agent 9,53.10.6,萧相国世家,,,,B,【8.21.3】等到赵高已经杀了秦二世，派人来见沛公，想要定约瓜分关中称王，沛公以为是诈骗，就采用张良的计策，派郦生、陆贾去游说秦军将领，用私利相诱，趁机袭击武关，攻破了关口。,Curated cross-text same-event alignment; Block C text drawn from 出题来源 tex files.

@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-08-28T02:20:49.007Z",
+  "metric": "row_strict_accuracy",
+  "overall": [
+    {
+      "method": "human",
+      "label": "Human",
+      "color": "#b7791f",
+      "strictAccuracy": 0.6458333333333334,
+      "correct": 62,
+      "total": 96,
+      "seconds": 8796
+    },
+    {
+      "method": "llm_subagent",
+      "label": "Direct LLM",
+      "color": "#2f7d62",
+      "strictAccuracy": 0.6875,
+      "correct": 33,
+      "total": 48,
+      "seconds": 222.68078136444092
+    },
+    {
+      "method": "aih_agent_api",
+      "label": "Structured LLM",
+      "color": "#3b6fb6",
+      "strictAccuracy": 0.75,
+      "correct": 36,
+      "total": 48,
+      "seconds": 841.7713282108307
+    }
+  ],
+  "blocks": [
+    {
+      "id": "A",
+      "label": "Block A",
+      "values": [
+        {
+          "method": "human",
+          "label": "Human",
+          "color": "#b7791f",
+          "strictAccuracy": 0.4166666666666667,
+          "correct": 20,
+          "total": 48,
+          "seconds": 3120
+        },
+        {
+          "method": "llm_subagent",
+          "label": "Direct LLM",
+          "color": "#2f7d62",
+          "strictAccuracy": 0.625,
+          "correct": 15,
+          "total": 24,
+          "seconds": 108.0497100646109
+        },
+        {
+          "method": "aih_agent_api",
+          "label": "Structured LLM",
+          "color": "#3b6fb6",
+          "strictAccuracy": 0.6666666666666666,
+          "correct": 16,
+          "total": 24,
+          "seconds": 734.166257244887
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Block B",
+      "values": [
+        {
+          "method": "human",
+          "label": "Human",
+          "color": "#b7791f",
+          "strictAccuracy": 0.7916666666666666,
+          "correct": 19,
+          "total": 24,
+          "seconds": 1836
+        },
+        {
+          "method": "llm_subagent",
+          "label": "Direct LLM",
+          "color": "#2f7d62",
+          "strictAccuracy": 0.75,
+          "correct": 9,
+          "total": 12,
+          "seconds": 53.75654384779472
+        },
+        {
+          "method": "aih_agent_api",
+          "label": "Structured LLM",
+          "color": "#3b6fb6",
+          "strictAccuracy": 0.75,
+          "correct": 9,
+          "total": 12,
+          "seconds": 49.69176761780626
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Block C",
+      "values": [
+        {
+          "method": "human",
+          "label": "Human",
+          "color": "#b7791f",
+          "strictAccuracy": 0.9583333333333334,
+          "correct": 23,
+          "total": 24,
+          "seconds": 3840
+        },
+        {
+          "method": "llm_subagent",
+          "label": "Direct LLM",
+          "color": "#2f7d62",
+          "strictAccuracy": 0.75,
+          "correct": 9,
+          "total": 12,
+          "seconds": 60.87452745203529
+        },
+        {
+          "method": "aih_agent_api",
+          "label": "Structured LLM",
+          "color": "#3b6fb6",
+          "strictAccuracy": 0.9166666666666666,
+          "correct": 11,
+          "total": 12,
+          "seconds": 57.913303348137426
+        }
+      ]
+    }
+  ],
+  "timeNotes": {
+    "human": "Human block times are read from participant timing records.",
+    "llm": "Direct LLM block times allocate total wall-clock runtime by each block's share of per-question API elapsed seconds across the three runs.",
+    "aihAgent": "Structured LLM block times allocate total wall-clock runtime by each block's share of per-question API elapsed seconds across the three runs."
+  },
+  "methodNotes": {
+    "aihAgent": "Structured LLM rows use human-visible question text only for all three blocks, with block-specific structured prompts and three-run majority vote."
+  },
+  "sources": {
+    "humanMetrics": "experiment-2-human-accuracy-metrics.json",
+    "llmSource": "latest direct-LLM consensus output",
+    "structuredLlmSource": "latest structured-LLM consensus output"
+  }
+}

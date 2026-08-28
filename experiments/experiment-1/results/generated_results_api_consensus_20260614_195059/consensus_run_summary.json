@@ -1,0 +1,50 @@
+{
+  "label": "experiment1_ai_only_final_api_consensus",
+  "output_dir": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059",
+  "combined_csv": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/tables/all_cases_ai_only_consensus_prefill.csv",
+  "score_json": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/ai_variant_score_experiment1_ai_only_final_api_consensus.json",
+  "loss_csv": "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/microiou_loss_rows_experiment1_ai_only_final_api_consensus.csv",
+  "repeats": 3,
+  "cases": [
+    "H-C1",
+    "H-C2",
+    "H-C3",
+    "H-C4",
+    "H-C5",
+    "H-C6"
+  ],
+  "run_csvs": {
+    "H-C1": [
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C1/run_01/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C1/run_02/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C1/run_03/tables/all_cases_ai_assisted_prefill.csv"
+    ],
+    "H-C2": [
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C2/run_01/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C2/run_02/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C2/run_03/tables/all_cases_ai_assisted_prefill.csv"
+    ],
+    "H-C3": [
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C3/run_01/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C3/run_02/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C3/run_03/tables/all_cases_ai_assisted_prefill.csv"
+    ],
+    "H-C4": [
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C4/run_01/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C4/run_02/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C4/run_03/tables/all_cases_ai_assisted_prefill.csv"
+    ],
+    "H-C5": [
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C5/run_01/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C5/run_02/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C5/run_03/tables/all_cases_ai_assisted_prefill.csv"
+    ],
+    "H-C6": [
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C6/run_01/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C6/run_02/tables/all_cases_ai_assisted_prefill.csv",
+      "<PROJECT_ROOT>/experiments/AIH人机实验/实验1_AI辅助/nature_submission_agent/outputs/current/generated_results_api_consensus_20260614_195059/runs/H-C6/run_03/tables/all_cases_ai_assisted_prefill.csv"
+    ]
+  },
+  "generated_at": "2026-06-14T20:04:55",
+  "consensus_method": "row majority vote; ties use interval medoid without gold labels"
+}

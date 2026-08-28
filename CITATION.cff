@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use AI Historian or these evaluation materials, please cite the associated paper."
+title: "AI Historian: Code and Reproducibility Materials"
+type: software
+version: "1.0.0"
+date-released: 2026-08-28
+repository-code: "https://github.com/YiFengLu1999/AI-Historian"
+license: Apache-2.0
+authors:
+  - family-names: Lu
+    given-names: Yifeng
+  - family-names: Yang
+    given-names: Zijie
+  - family-names: Li
+    given-names: Jie
+  - family-names: Min
+    given-names: Qingkai
+  - family-names: Zhang
+    given-names: Yue
+abstract: "Reference implementation and frozen evaluation artifacts for AI Historian, a staged agent workflow for traceable person-centred temporal evidence reconstruction."
+keywords:
+  - digital history
+  - large language models
+  - agent systems
+  - temporal reasoning
+  - historical narratives
+preferred-citation:
+  type: article
+  title: "AI Historian: Helping historians organize and verify person-centred temporal clues from dispersed historical narratives"
+  year: 2026
+  authors:
+    - family-names: Lu
+      given-names: Yifeng
+    - family-names: Yang
+      given-names: Zijie
+    - family-names: Li
+      given-names: Jie
+    - family-names: Min
+      given-names: Qingkai
+    - family-names: Zhang
+      given-names: Yue

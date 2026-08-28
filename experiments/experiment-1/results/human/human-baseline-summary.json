@@ -1,0 +1,27 @@
+{
+  "schema": "aih_experiment1_human_baseline_summary_v1",
+  "condition": "Human-only",
+  "participant_count": 6,
+  "case_count": 6,
+  "source_sentence_count": 249,
+  "eligible_scoring_rows": 244,
+  "reported_case_size_weighted_micro_iou": 0.813,
+  "cumulative_elapsed_seconds": 5520,
+  "cumulative_elapsed_display": "1 h 32 min",
+  "case_metrics": [
+    {"case_id": "H-C1", "participant_id": "P1", "source_sentences": 15, "micro_iou": 1.0, "elapsed_seconds": 300},
+    {"case_id": "H-C2", "participant_id": "P2", "source_sentences": 35, "micro_iou": 0.812346, "elapsed_seconds": 300},
+    {"case_id": "H-C3", "participant_id": "P3", "source_sentences": 49, "micro_iou": 0.987952, "elapsed_seconds": 660},
+    {"case_id": "H-C4", "participant_id": "P4", "source_sentences": 32, "micro_iou": 1.0, "elapsed_seconds": 660},
+    {"case_id": "H-C5", "participant_id": "P5", "source_sentences": 57, "micro_iou": 0.566713, "elapsed_seconds": 780},
+    {"case_id": "H-C6", "participant_id": "P6", "source_sentences": 61, "micro_iou": 0.766212, "elapsed_seconds": 2820}
+  ],
+  "artifacts": {
+    "human_only_ranges": "human-only-ranges.csv",
+    "human_ai_ranges": "human-ai-ranges.csv",
+    "case_metrics": "human-case-metrics.csv",
+    "timing": "human-timing-by-case.csv",
+    "gold_ranges": "../../inputs/annotations/gold-iso-ranges.csv",
+    "scorer": "../../evaluation/score_ai_prefill_variant.js"
+  }
+}

@@ -1,0 +1,7 @@
+case_id,source_sentences,human_only_micro_iou,human_ai_micro_iou
+H-C1,15,1,1
+H-C2,35,0.812346,1
+H-C3,49,0.987952,0.423913
+H-C4,32,1,1
+H-C5,57,0.566713,0.646943
+H-C6,61,0.766212,0.587796

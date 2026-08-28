@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-08-28T02:21:49.266Z",
+  "metric": "Macro-average of the six case-level month-precision MicroIoU values",
+  "expected_rows": 249,
+  "data_quality": {
+    "all_score_files_present": true,
+    "all_have_six_cases": true,
+    "note": "All variants were rescored with the frozen Experiment1 scorer and identical Gold/Human inputs. Macro averages are descriptive summaries; the official scorer is case-level."
+  },
+  "human_only": [
+    {
+      "case_id": "H-C1",
+      "micro_iou": 1
+    },
+    {
+      "case_id": "H-C2",
+      "micro_iou": 0.812346
+    },
+    {
+      "case_id": "H-C3",
+      "micro_iou": 0.987952
+    },
+    {
+      "case_id": "H-C4",
+      "micro_iou": 1
+    },
+    {
+      "case_id": "H-C5",
+      "micro_iou": 0.566713
+    },
+    {
+      "case_id": "H-C6",
+      "micro_iou": 0.766212
+    }
+  ],
+  "summaries": [
+    {
+      "model": "DeepSeek-V4-Flash（非思考模式）",
+      "mode": "agent",
+      "macro_micro_iou": 0.902455,
+      "delta_vs_deepseek": 0,
+      "cases_beating_human_only": 6,
+      "missing_rows": 1,
+      "unresolved_rows": 0,
+      "predicted_rows": 249,
+      "case_scores": {
+        "H-C1": 1,
+        "H-C2": 1,
+        "H-C3": 1,
+        "H-C4": 1,
+        "H-C5": 0.595833,
+        "H-C6": 0.818898
+      },
+      "score_source": "results/ai-variant-score-experiment-1-ai-only-final-api-consensus.json"
+    },
+    {
+      "model": "DeepSeek-V4-Flash（非思考模式）",
+      "mode": "direct",
+      "macro_micro_iou": 0.15406,
+      "delta_vs_deepseek": 0,
+      "cases_beating_human_only": 0,
+      "missing_rows": 13,
+      "unresolved_rows": 14,
+      "predicted_rows": 204,
+      "case_scores": {
+        "H-C1": 0.063218,
+        "H-C2": 0.027356,
+        "H-C3": 0.457831,
+        "H-C4": 0.15508,
+        "H-C5": 0.097166,
+        "H-C6": 0.123711
+      },
+      "score_source": "direct-llm-results/ai-variant-score-direct-llm-baseline-step-11-fixed.json"
+    },
+    {
+      "model": "GPT-5.6 SOL",
+      "mode": "agent",
+      "macro_micro_iou": 0.869024,
+      "delta_vs_deepseek": -0.033431,
+      "cases_beating_human_only": 4,
+      "missing_rows": 2,
+      "unresolved_rows": 0,
+      "predicted_rows": 249,
+      "case_scores": {
+        "H-C1": 0.861272,
+        "H-C2": 1,
+        "H-C3": 0.775281,
+        "H-C4": 1,
+        "H-C5": 0.677184,
+        "H-C6": 0.900407
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-gpt-5.6-sol-agent.json"
+    },
+    {
+      "model": "GPT-5.6 SOL",
+      "mode": "direct",
+      "macro_micro_iou": 0.179083,
+      "delta_vs_deepseek": 0.025022,
+      "cases_beating_human_only": 0,
+      "missing_rows": 17,
+      "unresolved_rows": 6,
+      "predicted_rows": 204,
+      "case_scores": {
+        "H-C1": 0.063584,
+        "H-C2": 0.139818,
+        "H-C3": 0.433735,
+        "H-C4": 0.213904,
+        "H-C5": 0.097166,
+        "H-C6": 0.126289
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-gpt-5.6-sol-direct.json"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "mode": "agent",
+      "macro_micro_iou": 0.885892,
+      "delta_vs_deepseek": -0.016563,
+      "cases_beating_human_only": 4,
+      "missing_rows": 2,
+      "unresolved_rows": 0,
+      "predicted_rows": 249,
+      "case_scores": {
+        "H-C1": 0.861272,
+        "H-C2": 1,
+        "H-C3": 0.975904,
+        "H-C4": 1,
+        "H-C5": 0.624709,
+        "H-C6": 0.853465
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-gemini-3.1-pro-agent.json"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "mode": "direct",
+      "macro_micro_iou": 0.146059,
+      "delta_vs_deepseek": -0.008002,
+      "cases_beating_human_only": 0,
+      "missing_rows": 26,
+      "unresolved_rows": 23,
+      "predicted_rows": 204,
+      "case_scores": {
+        "H-C1": 0.063584,
+        "H-C2": 0.094225,
+        "H-C3": 0.352273,
+        "H-C4": 0.15508,
+        "H-C5": 0.101215,
+        "H-C6": 0.109974
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-gemini-3.1-pro-direct.json"
+    },
+    {
+      "model": "Claude Opus 5",
+      "mode": "agent",
+      "macro_micro_iou": 0.907171,
+      "delta_vs_deepseek": 0.004715,
+      "cases_beating_human_only": 4,
+      "missing_rows": 1,
+      "unresolved_rows": 0,
+      "predicted_rows": 249,
+      "case_scores": {
+        "H-C1": 1,
+        "H-C2": 1,
+        "H-C3": 0.975904,
+        "H-C4": 1,
+        "H-C5": 0.566713,
+        "H-C6": 0.900407
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-claude-opus-5-agent.json"
+    },
+    {
+      "model": "Claude Opus 5",
+      "mode": "direct",
+      "macro_micro_iou": 0.143241,
+      "delta_vs_deepseek": -0.01082,
+      "cases_beating_human_only": 0,
+      "missing_rows": 55,
+      "unresolved_rows": 48,
+      "predicted_rows": 204,
+      "case_scores": {
+        "H-C1": 0.063584,
+        "H-C2": 0.051672,
+        "H-C3": 0.409639,
+        "H-C4": 0.160428,
+        "H-C5": 0.089069,
+        "H-C6": 0.085052
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-claude-opus-5-direct.json"
+    },
+    {
+      "model": "Qwen 3.6",
+      "mode": "agent",
+      "macro_micro_iou": 0.786341,
+      "delta_vs_deepseek": -0.116114,
+      "cases_beating_human_only": 2,
+      "missing_rows": 14,
+      "unresolved_rows": 0,
+      "predicted_rows": 249,
+      "case_scores": {
+        "H-C1": 0.722543,
+        "H-C2": 1,
+        "H-C3": 0.879518,
+        "H-C4": 0.962567,
+        "H-C5": 0.586552,
+        "H-C6": 0.566864
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-westlake-qwen-agent.json"
+    },
+    {
+      "model": "Qwen 3.6",
+      "mode": "direct",
+      "macro_micro_iou": 0.149727,
+      "delta_vs_deepseek": -0.004334,
+      "cases_beating_human_only": 0,
+      "missing_rows": 15,
+      "unresolved_rows": 14,
+      "predicted_rows": 204,
+      "case_scores": {
+        "H-C1": 0.069364,
+        "H-C2": 0.027356,
+        "H-C3": 0.409639,
+        "H-C4": 0.171123,
+        "H-C5": 0.097166,
+        "H-C6": 0.123711
+      },
+      "score_source": "results/multimodel/scores/ai-variant-score-multimodel-westlake-qwen-direct.json"
+    }
+  ],
+  "case_winners": {
+    "agent": {
+      "H-C1": {
+        "score": 1,
+        "models": [
+          "DeepSeek-V4-Flash（非思考模式）",
+          "Claude Opus 5"
+        ]
+      },
+      "H-C2": {
+        "score": 1,
+        "models": [
+          "DeepSeek-V4-Flash（非思考模式）",
+          "GPT-5.6 SOL",
+          "Gemini 3.1 Pro",
+          "Claude Opus 5",
+          "Qwen 3.6"
+        ]
+      },
+      "H-C3": {
+        "score": 1,
+        "models": [
+          "DeepSeek-V4-Flash（非思考模式）"
+        ]
+      },
+      "H-C4": {
+        "score": 1,
+        "models": [
+          "DeepSeek-V4-Flash（非思考模式）",
+          "GPT-5.6 SOL",
+          "Gemini 3.1 Pro",
+          "Claude Opus 5"
+        ]
+      },
+      "H-C5": {
+        "score": 0.677184,
+        "models": [
+          "GPT-5.6 SOL"
+        ]
+      },
+      "H-C6": {
+        "score": 0.900407,
+        "models": [
+          "GPT-5.6 SOL",
+          "Claude Opus 5"
+        ]
+      }
+    },
+    "direct": {
+      "H-C1": {
+        "score": 0.069364,
+        "models": [
+          "Qwen 3.6"
+        ]
+      },
+      "H-C2": {
+        "score": 0.139818,
+        "models": [
+          "GPT-5.6 SOL"
+        ]
+      },
+      "H-C3": {
+        "score": 0.457831,
+        "models": [
+          "DeepSeek-V4-Flash（非思考模式）"
+        ]
+      },
+      "H-C4": {
+        "score": 0.213904,
+        "models": [
+          "GPT-5.6 SOL"
+        ]
+      },
+      "H-C5": {
+        "score": 0.101215,
+        "models": [
+          "Gemini 3.1 Pro"
+        ]
+      },
+      "H-C6": {
+        "score": 0.126289,
+        "models": [
+          "GPT-5.6 SOL"
+        ]
+      }
+    }
+  },
+  "agent_lift_over_direct": [
+    {
+      "model": "DeepSeek-V4-Flash（非思考模式）",
+      "agent_macro_micro_iou": 0.902455,
+      "direct_macro_micro_iou": 0.15406,
+      "agent_minus_direct": 0.748395
+    },
+    {
+      "model": "GPT-5.6 SOL",
+      "agent_macro_micro_iou": 0.869024,
+      "direct_macro_micro_iou": 0.179083,
+      "agent_minus_direct": 0.689941
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "agent_macro_micro_iou": 0.885892,
+      "direct_macro_micro_iou": 0.146059,
+      "agent_minus_direct": 0.739833
+    },
+    {
+      "model": "Claude Opus 5",
+      "agent_macro_micro_iou": 0.907171,
+      "direct_macro_micro_iou": 0.143241,
+      "agent_minus_direct": 0.76393
+    },
+    {
+      "model": "Qwen 3.6",
+      "agent_macro_micro_iou": 0.786341,
+      "direct_macro_micro_iou": 0.149727,
+      "agent_minus_direct": 0.636614
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+participant_id,stage_id,condition,case_id,duration_seconds,duration_display
+P1,stage1,Human-only,H-C1,300,5分
+P1,stage2,Human+AI,H-C2,360,6分
+P2,stage1,Human-only,H-C2,300,5分
+P2,stage2,Human+AI,H-C3,300,5分
+P3,stage1,Human-only,H-C3,660,11分
+P3,stage2,Human+AI,H-C4,480,8分
+P4,stage1,Human+AI,H-C5,1860,31分
+P4,stage2,Human-only,H-C4,660,11分
+P5,stage1,Human+AI,H-C6,1020,17分
+P5,stage2,Human-only,H-C5,780,13分
+P6,stage1,Human+AI,H-C1,1070,17分50秒
+P6,stage2,Human-only,H-C6,2820,47分

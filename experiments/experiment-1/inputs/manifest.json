@@ -1,0 +1,25 @@
+{
+  "schema": "aih_experiment1_input_manifest_v1",
+  "experiment": "Experiment 1: end-to-end temporal reconstruction",
+  "case_count": 6,
+  "sentence_count": 249,
+  "eligible_scoring_rows": 244,
+  "canonical_case_collection": "cases/experiment-1-cases.json",
+  "cases": [
+    {"case_id": "H-C1", "sentences": 15, "sources": ["萧相国世家"], "cross_document": false},
+    {"case_id": "H-C2", "sentences": 35, "sources": ["项羽本纪"], "cross_document": false},
+    {"case_id": "H-C3", "sentences": 49, "sources": ["高祖本纪"], "cross_document": false},
+    {"case_id": "H-C4", "sentences": 32, "sources": ["项羽本纪"], "cross_document": false},
+    {"case_id": "H-C5", "sentences": 57, "sources": ["高祖本纪", "项羽本纪"], "cross_document": true},
+    {"case_id": "H-C6", "sentences": 61, "sources": ["高祖本纪", "萧相国世家"], "cross_document": true}
+  ],
+  "annotations": {
+    "gold": "annotations/gold-iso-ranges.csv",
+    "human": "annotations/human-iso-ranges.csv"
+  },
+  "configuration": {
+    "cross_document_scope": "config/cross-document-scope.json",
+    "time_string_map": "config/time-string-iso-map.json",
+    "direct_llm_rules": "config/direct-llm-rules.tex"
+  }
+}
